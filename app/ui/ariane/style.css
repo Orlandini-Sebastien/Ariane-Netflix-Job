@@ -1,0 +1,57 @@
+.blue {
+	background-color: #6aa1f9;
+}
+
+.white {
+	background-color: white;
+}
+
+.classGo {
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+}
+.classNo {
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+}
+
+.layout {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 26px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.toggles {
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	width: 33%;
+	height: 30vh;
+}
+
+.button {
+	padding: 10px;
+	border-radius: 5px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.toggle {
+	display: flex;
+
+	width: 33%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.text {
+	margin-top: 10px;
+	width: 100px;
+	text-align: center;
+	align-self: center;
+	height: 30vh;
+}
