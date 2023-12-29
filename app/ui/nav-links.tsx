@@ -6,7 +6,7 @@ export default function NavLinks() {
 	const pathname = usePathname();
 	return (
 		<>
-			<div className="flex  justify-center m-8 rounded-md bg-lime-100">
+			<div className="flex  justify-center m-8 rounded-md bg-lime-100 text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl">
 				<Link
 					href="/third-project"
 					className={clsx(

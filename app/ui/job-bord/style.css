@@ -1,10 +1,10 @@
 @media screen and (max-width: 900px) {
 	.titleSection {
 		font-weight: 600;
-		font-size: 12px;
+		font-size: 11px;
 	}
 	.threeSpan {
-		font-size: 10px;
+		font-size: 9px;
 	}
 }
 @media screen and (min-width: 900px) {
