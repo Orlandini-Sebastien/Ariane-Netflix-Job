@@ -6,6 +6,12 @@
 	.threeSpan {
 		font-size: 9px;
 	}
+	.yellow {
+		border: solid darkgoldenrod 5px;
+	}
+	.green {
+		border: solid darkgreen 5px;
+	}
 }
 @media screen and (min-width: 900px) {
 	.titleSection {
@@ -14,6 +20,12 @@
 	}
 	.threeSpan {
 		font-size: 12px;
+	}
+	.yellow {
+		border: solid darkgoldenrod 10px;
+	}
+	.green {
+		border: solid darkgreen 10px;
 	}
 }
 
@@ -33,7 +45,6 @@ section {
 }
 
 .yellow {
-	border: solid darkgoldenrod 10px;
 	width: 25%;
 	height: 25vh;
 	margin: 10px;
@@ -43,7 +54,6 @@ section {
 }
 
 .green {
-	border: solid darkgreen 10px;
 	width: 25%;
 	height: 25vh;
 	margin: 10px;
